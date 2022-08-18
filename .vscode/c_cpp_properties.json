@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\wilso\\Documents\\Arduino\\libraries\\WiFiManager",
+                "C:\\Users\\wilso\\Documents\\Arduino\\libraries\\DHT_sensor_library",
+                "C:\\Program Files (x86)\\Arduino\\libraries\\Servo\\src",
+                "C:\\Users\\wilso\\Documents\\Arduino\\libraries\\ESPAsyncWebServer\\src",
+                "C:\\Users\\wilso\\Documents\\Arduino\\libraries\\ESPAsyncTCP\\src",
+                "C:\\Users\\wilso\\Documents\\Arduino\\libraries\\DoubleResetDetector\\src",
+                "C:\\Users\\wilso\\Documents\\Arduino\\libraries\\Arduino_JSON\\src"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

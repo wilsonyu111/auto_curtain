@@ -8,13 +8,15 @@
   <title>ESP Web Server</title>
 </head>
 
-<body>
+<body onload="updatePageValue()">
   <h2>ESP Web Server</h2>
-  <p><span id="textSliderValue">500</span></p>
-  <p><input type="range" onchange="updateSliderPWM(this)" id="pwmSlider" min="0" max="1023" value="%SLIDERVALUE%"
-      step="1" class="slider"></p>
+  <p><span id="textSliderValue">0</span></p>
+  <p><input type="range" onchange="updateSliderPWM(this)" id="pwmSlider" min="0" max="100" value=0 step="1"
+      class="slider"></p>
   <div class="mode">
     <h2>Mode</h2>
+    <h4 id="current_mode"> current mode: </h4>
+
     <div> <button type="button" id="auto" onclick="autoMode()">Automatic</button> </div>
     <div> <button type="button" id="manual" onclick="manualMode()">Manual</button> </div>
   </div>
